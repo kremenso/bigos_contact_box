@@ -2,6 +2,9 @@ require "bigos_contact_box/engine"
 
 module BigosContactBox
 
+  mattr_accessor :use_widget_mailer_settings
+  @@use_widget_mailer_settings = false
+
   mattr_accessor :port
   @@port = nil
 
