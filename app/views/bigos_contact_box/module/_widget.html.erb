@@ -3,11 +3,6 @@
 <%= form_for @message, :url => bigos_contact_box.messages_path do |form| %>
     <fieldset class="fields">
       <div class="field">
-        <%= form.label :name %>
-        <%= form.text_field :name %>
-      </div>
-
-      <div class="field">
         <%= form.label :email %>
         <%= form.text_field :email %>
       </div>
