@@ -1,7 +1,8 @@
 PATH
   remote: .
   specs:
-    bigos_contact_box (0.1.4)
+    bigos_contact_box (0.1.7)
+      jquery-rails
       rails (~> 3.2.9)
 
 GEM
