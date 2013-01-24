@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  $("#bigos_contact_form_submit").delegate("click", function() {
+  $("#bigos_contact_form_submit").on("click", function() {
       form = $(this).closest("form")
       form.find("input").removeClass("invalid")
       data = $(this).closest("form").serialize()
